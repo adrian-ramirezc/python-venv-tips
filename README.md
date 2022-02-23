@@ -37,7 +37,7 @@
 - pip freeze > requirements.txt
 
 # .gitignore file 
-- > touch .gitignore
-- > code .gitignore
+> touch .gitignore
+> code .gitignore
 - write -> /venv
 
