@@ -15,6 +15,7 @@
 
 ### Install library
 - pip install "library"
+    - example: pip install ipykernel 
 
 ### Activate virtual environment
 - "path"/Scripts/Activate.ps1
@@ -23,4 +24,15 @@
 ### Deactivate virtual environment
 - deactivate
 
+
+# Selecting Python interpreter in VS Code
+
+- Ctrl + Shift + P
+- Pyhon: Select Interpreter
+- Enter interpreter path ...
+- Look for the directory where you created the "venv" -> ./venv/Scripts/python.exe
+- Click in "Select Kernel" -> Select the appropriate"venv"
+
+# Create a "requirements.txt" file
+- pip freeze > requirements.txt
 
