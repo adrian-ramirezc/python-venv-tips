@@ -39,5 +39,6 @@
 # .gitignore file 
 - $ touch .gitignore
 - $ code .gitignore
-- write -> /venv
+- write the name of files or directories that you don't want to incude in your git repo
+    - example: /venv
 
