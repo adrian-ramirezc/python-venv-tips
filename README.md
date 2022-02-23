@@ -18,7 +18,7 @@
 
 ### Activate virtual environment
 - "path"/Scripts/Activate.ps1
-    -example: .\venv\Scripts\Activate.ps1
+    - example: .\venv\Scripts\Activate.ps1
 
 ### Deactivate virtual environment
 - deactivate
