@@ -5,24 +5,24 @@
 ### Create a virtual environment
 
 - Create a directory using : mkdir "name"
-    - example: mkdir venv
+    - example: $ mkdir venv
 
 - python -m venv "path" 
-    - example: python -m venv .\venv\
+    - example: $ python -m venv .\venv\
 
 ### List current libraries of a virtual environment
-- pip list 
+- $ pip list 
 
 ### Install library
 - pip install "library"
-    - example: pip install ipykernel 
+    - example: $ pip install ipykernel 
 
 ### Activate virtual environment
 - "path"/Scripts/Activate.ps1
-    - example: .\venv\Scripts\Activate.ps1
+    - example: $ .\venv\Scripts\Activate.ps1
 
 ### Deactivate virtual environment
-- deactivate
+- $ deactivate
 
 
 # Selecting Python interpreter in VS Code
@@ -34,10 +34,10 @@
 - Click in "Select Kernel" -> Select the appropriate"venv"
 
 # Create a "requirements.txt" file
-- pip freeze > requirements.txt
+- $ pip freeze > requirements.txt
 
 # .gitignore file 
-> touch .gitignore
-> code .gitignore
+- $ touch .gitignore
+- $ code .gitignore
 - write -> /venv
 
