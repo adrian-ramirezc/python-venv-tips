@@ -5,7 +5,7 @@
 ### Create a virtual environment
 - python -m venv <path> 
 
-| example: python -m venv .\venv\
+    * example: python -m venv .\venv\
 
 - Another tip
 
