@@ -36,3 +36,8 @@
 # Create a "requirements.txt" file
 - pip freeze > requirements.txt
 
+# .gitignore file 
+- > touch .gitignore
+- > code .gitignore
+- write -> /venv
+
