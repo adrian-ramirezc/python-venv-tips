@@ -10,16 +10,22 @@
 - python -m venv "path" 
     - example: $ python -m venv .\venv\
 
-### List current libraries of a virtual environment
+### .gitignore file 
+- $ touch .gitignore
+- $ code .gitignore
+- write the name of files or directories that you don't want to incude in your git repo
+    - example: /venv
+
+### Activate virtual environment
+- "path"/Scripts/Activate.ps1
+    - example: $ .\venv\Scripts\Activate.ps1
+
+### List current libraries of a virtual environment activated
 - $ pip list 
 
 ### Install library
 - pip install "library"
     - example: $ pip install ipykernel 
-
-### Activate virtual environment
-- "path"/Scripts/Activate.ps1
-    - example: $ .\venv\Scripts\Activate.ps1
 
 ### Deactivate virtual environment
 - $ deactivate
@@ -36,9 +42,5 @@
 # Create a "requirements.txt" file
 - $ pip freeze > requirements.txt
 
-# .gitignore file 
-- $ touch .gitignore
-- $ code .gitignore
-- write the name of files or directories that you don't want to incude in your git repo
-    - example: /venv
+
 
