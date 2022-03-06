@@ -10,6 +10,21 @@
 - python -m venv "path" 
     - example: $ python -m venv .\venv\
 
+### Create a virtual environment wiht a **specific** python version
+- Which python versions are currently installed ? 
+    - Windows PowerShell 
+        - py -0p
+        - Response (* means the current used python):
+            -  -3.10-64       C:\Users\adrian\AppData\Local\Programs\Python\Python310\python.exe *
+            -  -3.9-64        C:\Users\adrian\AppData\Local\Programs\Python\Python39\python.exe
+    - Bash 
+        - where python
+        - Response: 
+            - C:\Users\adrian\AppData\Local\Programs\Python\Python310\python.exe
+            - C:\Users\adrian\AppData\Local\Programs\Python\Python39\python.exe
+- Choosing python 3.9 from the example above: 
+    - C:\Users\adrian\AppData\Local\Programs\Python\Python39\python -m venv .\venv\
+
 ### .gitignore file 
 - $ touch .gitignore
 - $ code .gitignore
